@@ -55,27 +55,46 @@ Output video automatically saved as:
 ai_pushup_output.mp4
 
 ⚙️ Controls
-Key	Action
-q	Quit the application
+
+Key	        Action
+
+q        	Quit the application
+
 📊 Parameters and Logic
-Parameter	Description
-down_threshold = 80	When elbow angle ≤ 80°, stage changes to “down”
-up_threshold = 150	When elbow angle ≥ 150°, stage changes to “up”
-back_angle < 150	Displays warning to correct posture
+
+Parameter                	 Description
+
+down_threshold = 80     	 When elbow angle ≤ 80°, stage changes to “down”
+
+up_threshold = 150	       When elbow angle ≥ 150°, stage changes to “up”
+
+back_angle < 150	         Displays warning to correct posture
+
 
 🧩 Dependencies
-Library	Purpose
-opencv-python	Webcam access, video recording, visualization
-mediapipe	Pose detection and landmark tracking
-numpy	Mathematical calculations (angles, smoothing)
-collections.deque	Moving window for stable angle averaging
-time	FPS calculation and frame timing
+
+Library	                   Purpose
+
+opencv-python	             Webcam access, video recording, visualization
+
+mediapipe	                 Pose detection and landmark tracking
+
+numpy                   	 Mathematical calculations (angles, smoothing)
+
+collections.deque        	 Moving window for stable angle averaging
+
+time	                     FPS calculation and frame timing
 
 🧍 Feedback Messages
-Message	Description
-✅ Good rep!	Successfully completed one full push-up
-⚠️ Keep your back straight!	Incorrect posture detected
-Perfect form!	Excellent push-up technique
+
+Message	                            Description
+
+✅ Good rep!	                    Successfully completed one full push-up
+
+⚠️ Keep your back straight!	      Incorrect posture detected
+
+Perfect form!                    	Excellent push-up technique
+
 🧰 Future Upgrades
 
 🔊 Voice feedback system (using pyttsx3)
@@ -88,9 +107,9 @@ Perfect form!	Excellent push-up technique
 
 👨‍💻 Author
 
-Niranjan Bhardwaj
+Niranjan Kumar
 💡 Passionate about AI, Computer Vision, and Human Activity Recognition
-📧 Contact: niranjankumarnb45@.com
+📧 Contact: niranjankumarnb45@gmail.com
 
 🌐 GitHub: niranjan453
 
