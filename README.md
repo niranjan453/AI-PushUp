@@ -42,58 +42,66 @@ python ai_pushup.py
 
 🎥 Output
 
+
 Real-time pose tracking with:
+
 
 Pose landmarks
 
+
 Elbow angles (L/R)
+
 
 Rep count, FPS, and feedback
 
+
 Output video automatically saved as:
+
 
 ai_pushup_output.mp4
 
+
 ⚙️ Controls
 
-Key	        Action
 
-q        	Quit the application
+Key	  -      Action
+
+q    -    	Quit the application
 
 📊 Parameters and Logic
 
-Parameter                	 Description
+Parameter      -          	 Description
 
-down_threshold = 80     	 When elbow angle ≤ 80°, stage changes to “down”
+down_threshold = 80   -  	 When elbow angle ≤ 80°, stage changes to “down”
 
-up_threshold = 150	       When elbow angle ≥ 150°, stage changes to “up”
+up_threshold = 150	   -    When elbow angle ≥ 150°, stage changes to “up”
 
-back_angle < 150	         Displays warning to correct posture
+back_angle < 150	      -   Displays warning to correct posture
 
 
 🧩 Dependencies
 
-Library	                   Purpose
+Library	          -         Purpose
 
-opencv-python	             Webcam access, video recording, visualization
+opencv-python	     -        Webcam access, video recording, visualization
 
-mediapipe	                 Pose detection and landmark tracking
+mediapipe	          -       Pose detection and landmark tracking
 
-numpy                   	 Mathematical calculations (angles, smoothing)
+numpy                -   	 Mathematical calculations (angles, smoothing)
 
-collections.deque        	 Moving window for stable angle averaging
+collections.deque     -   	 Moving window for stable angle averaging
 
-time	                     FPS calculation and frame timing
+time	                 -    FPS calculation and frame timing
 
 🧍 Feedback Messages
 
-Message	                            Description
+Message	                -            Description
 
-✅ Good rep!	                    Successfully completed one full push-up
+✅ Good rep!	           -         Successfully completed one full push-up
 
-⚠️ Keep your back straight!	      Incorrect posture detected
+⚠️ Keep your back straight!	  -    Incorrect posture detected
 
-Perfect form!                    	Excellent push-up technique
+Perfect form!             -       	Excellent push-up technique
 
 🧰 Future Upgrades
 
