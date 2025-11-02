@@ -25,8 +25,10 @@ Stage Transition – Detects transitions between up/down to count a rep
 Feedback Messages – Provides real-time guidance and motivation
 
 🛠️ Installation
+
 1️⃣ Clone the repository
 git clone https://github.com/niranjan453/ai-pushup.git
+
 cd ai-pushup
 
 2️⃣ Install dependencies
