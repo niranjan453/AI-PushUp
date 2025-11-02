@@ -3,6 +3,7 @@ AI PushUp – Dual Arm Tracker (OpenCV + MediaPipe)
 AI PushUp is an intelligent, real-time push-up counter and posture analyzer built using OpenCV, MediaPipe, and Python.
 It tracks both arms, counts reps automatically, checks your form accuracy, and provides instant feedback — making your workouts smarter and more effective.
 
+
 🚀 Features
 
 ✅ AI-powered dual-arm tracking – Detects both arms to ensure balanced movement
@@ -116,8 +117,11 @@ Perfect form!             -       	Excellent push-up technique
 👨‍💻 Author
 
 Niranjan Kumar
+
 💡 Passionate about AI, Computer Vision, and Human Activity Recognition
+
 📧 Contact: niranjankumarnb45@gmail.com
+
 
 🌐 GitHub: niranjan453
 
